@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Create h3 element-->
+    <H3>Contact Our Team</H3>
+    <!--Adding a paragraph-->
+    <p>Please complete the form below and we’ll get back to you as soon as possible.</p>
+    <!--Create a form with action and methode-->
+    <form action="https://webdevbasics.net/scripts/demo.php" methode="post">
+    <!--Creating text input for full name with label for id and name -->
+    <label for="fullname">Full name:</label>
+    <input type="text" id="fullname" name="fullname" required>
+    <!--Creating text input for email input  -->
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+    <!--Creating phone input for phone number-->
+    <label for="phone">Phone Number:</label>
+    <input type="tel" name="phone" id="phone">
+    <!--Creat a select for topic-->
+    <label for="topic">Topic:</label>
+    <select name="topic" id="topic">
+        <option value="general">General Inquiry</option>
+        <option value="support">Support</option>
+        <option value="feedback">Feedback</option>
+    </select>
+    <!--Create a required text for message -->
+    <label for="message">Message:</label>
+    <textarea name="message" id="message" rows="5 required"></textarea>
+    <!--CreaTE A submit  message-->
+    <input type="submit" value="Send Message">
+    </form>
+
+</body>
+</html>
