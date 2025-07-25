@@ -1,0 +1,91 @@
+<!-- 
+Name: Mohamed Lamine Tourki
+Date: July 2025
+File: final3.html (Form Page)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Discover Algeria - Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="wrapper">
+
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li><a href="final1.html">Home</a></li>
+          <li><a href="final2.html">Details</a></li>
+          <li><a href="final3.html">Contact</a></li>
+          <li><a href="final4.html">Credits</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="visit-date">Planned Visit Date:</label>
+        <input type="date" id="visit-date" name="visit-date">
+
+        <p>Where do you want to go?</p>
+        <input type="checkbox" id="algiers" name="place" value="Algiers">
+        <label for="algiers">Algiers</label><br>
+
+        <input type="checkbox" id="desert" name="place" value="Sahara">
+        <label for="desert">Sahara Desert</label><br>
+
+        <input type="checkbox" id="bejaia" name="place" value="Bejaia">
+        <label for="bejaia">Bejaia</label><br>
+
+        <p>Preferred Travel Style:</p>
+        <input type="radio" id="adventure" name="style" value="Adventure">
+        <label for="adventure">Adventure</label><br>
+
+        <input type="radio" id="relax" name="style" value="Relaxation">
+        <label for="relax">Relaxation</label><br>
+
+        <input type="radio" id="culture" name="style" value="Cultural">
+        <label for="culture">Cultural</label><br>
+
+        <label for="topic">Topic:</label>
+        <select id="topic" name="topic">
+          <option value="general">General Inquiry</option>
+          <option value="support">Support</option>
+          <option value="travel">Travel Help</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="submit" value="Send Message">
+        <input type="reset" value="Reset">
+      </form>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="final1.html">Home</a></li>
+          <li><a href="final2.html">Details</a></li>
+          <li><a href="final3.html">Contact</a></li>
+          <li><a href="final4.html">Credits</a></li>
+        </ul>
+      </nav>
+      <p>&copy; 2025 Discover Algeria by Mohamed Lamine Tourki</p>
+    </footer>
+
+  </div>
+</body>
+</html>
